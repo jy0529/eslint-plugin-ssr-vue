@@ -1,8 +1,15 @@
 {
   "name": "eslint-plugin-ssr-vue",
   "version": "0.0.1",
-  "description": "a vue ssr friendly eslint plugin",
   "main": "lib/index.js",
+  "description": "a vue ssr friendly eslint plugin",
+  "author": "Jy <purejy@163.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jy0529/eslint-plugin-ssr-vue"
+  },
+  "homepage": "https://github.com/jy0529/eslint-plugin-ssr-vue",
+  "bugs": "https://github.com/jy0529/eslint-plugin-ssr-vue/issues",
   "directories": {
     "lib": "lib",
     "test": "tests"
@@ -11,13 +18,16 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
+    "eslintplugin",
     "eslint-plugin",
+    "server-side-rendering",
     "ssr",
+    "nodejs",
     "vue",
     "eslint",
-    "plugin"
+    "plugin",
+    "globals"
   ],
-  "author": "Jy",
   "license": "MIT",
   "devDependencies": {
     "eslint": "^7.31.0",
