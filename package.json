@@ -36,5 +36,8 @@
   },
   "dependencies": {
     "globals": "^13.11.0"
+  },
+  "peerDependencies": {
+    "eslint-plugin-vue": "^7.10.0"
   }
 }
